@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, Suspense } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Navbar } from './components';
+import { Navbar, Loading } from './components';
 import routes from './routes';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
-          {/* <Suspense fallback={ <Loading /> } > */}
+          <Suspense fallback={ <Loading /> } >
             {
               routes.map((route, index) => {
                 return (
@@ -17,7 +17,7 @@ function App() {
                 );
               })
             }
-          {/* </Suspense> */}
+          </Suspense>
         </Switch>
       </BrowserRouter>
     </Fragment>
