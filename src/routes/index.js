@@ -1,23 +1,23 @@
-// import loadable from '@loadable/component';
-// import Loading from '../components/Loading';
+import loadable from '@loadable/component';
+import Loading from '../components/Loading';
 // import { lazy } from 'react';
 
 // standalone
-import { Home, About, Blog, Docs } from '../views';
+// import { Home, About, Blog, Docs } from '../views';
 
 // loadable component
-// const Home = loadable(() => {
-//   return new Promise((res) => {
-//     setTimeout(() => {
-//       res(import('../views/Home'));
-//     }, 5000);
-//   });
-// }, {
-//   fallback: <Loading />
-// });
-// const About = loadable(() => import('../views/About'));
-// const Blog = loadable(() => import('../views/Blog'));
-// const Docs = loadable(() => import('../views/Docs'));
+const Home = loadable(() => {
+  return new Promise((res) => {
+    setTimeout(() => {
+      res(import('../views/Home'));
+    }, 5000);
+  });
+}, {
+  fallback: <Loading />
+});
+const About = loadable(() => import('../views/About'));
+const Blog = loadable(() => import('../views/Blog'));
+const Docs = loadable(() => import('../views/Docs'));
 
 // react lazy
 // const Home = lazy(() => {
