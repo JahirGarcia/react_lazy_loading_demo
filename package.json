@@ -2,7 +2,7 @@
   "name": "lazy_loading_demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jahirgarcia.github.io/react_lazy_loading_demo/docs/",
+  "homepage": "https://jahirgarcia.github.io/react_lazy_loading_demo/docs",
   "dependencies": {
     "@loadable/component": "^5.14.1",
     "@testing-library/jest-dom": "^5.12.0",
