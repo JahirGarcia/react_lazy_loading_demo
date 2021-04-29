@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react_lazy_loading_demo/docs/static/css/main.963d7828.chunk.css",
-    "main.js": "/react_lazy_loading_demo/docs/static/js/main.3949fe20.chunk.js",
-    "main.js.map": "/react_lazy_loading_demo/docs/static/js/main.3949fe20.chunk.js.map",
-    "runtime-main.js": "/react_lazy_loading_demo/docs/static/js/runtime-main.2b1b6afa.js",
-    "runtime-main.js.map": "/react_lazy_loading_demo/docs/static/js/runtime-main.2b1b6afa.js.map",
-    "static/js/2.f6b597bd.chunk.js": "/react_lazy_loading_demo/docs/static/js/2.f6b597bd.chunk.js",
-    "static/js/2.f6b597bd.chunk.js.map": "/react_lazy_loading_demo/docs/static/js/2.f6b597bd.chunk.js.map",
-    "static/js/3.25f12c40.chunk.js": "/react_lazy_loading_demo/docs/static/js/3.25f12c40.chunk.js",
-    "static/js/3.25f12c40.chunk.js.map": "/react_lazy_loading_demo/docs/static/js/3.25f12c40.chunk.js.map",
-    "index.html": "/react_lazy_loading_demo/docs/index.html",
-    "static/css/main.963d7828.chunk.css.map": "/react_lazy_loading_demo/docs/static/css/main.963d7828.chunk.css.map",
-    "static/js/2.f6b597bd.chunk.js.LICENSE.txt": "/react_lazy_loading_demo/docs/static/js/2.f6b597bd.chunk.js.LICENSE.txt"
+    "main.css": "/react_lazy_loading_demo/static/css/main.963d7828.chunk.css",
+    "main.js": "/react_lazy_loading_demo/static/js/main.3949fe20.chunk.js",
+    "main.js.map": "/react_lazy_loading_demo/static/js/main.3949fe20.chunk.js.map",
+    "runtime-main.js": "/react_lazy_loading_demo/static/js/runtime-main.16a3d58e.js",
+    "runtime-main.js.map": "/react_lazy_loading_demo/static/js/runtime-main.16a3d58e.js.map",
+    "static/js/2.f6b597bd.chunk.js": "/react_lazy_loading_demo/static/js/2.f6b597bd.chunk.js",
+    "static/js/2.f6b597bd.chunk.js.map": "/react_lazy_loading_demo/static/js/2.f6b597bd.chunk.js.map",
+    "static/js/3.25f12c40.chunk.js": "/react_lazy_loading_demo/static/js/3.25f12c40.chunk.js",
+    "static/js/3.25f12c40.chunk.js.map": "/react_lazy_loading_demo/static/js/3.25f12c40.chunk.js.map",
+    "index.html": "/react_lazy_loading_demo/index.html",
+    "static/css/main.963d7828.chunk.css.map": "/react_lazy_loading_demo/static/css/main.963d7828.chunk.css.map",
+    "static/js/2.f6b597bd.chunk.js.LICENSE.txt": "/react_lazy_loading_demo/static/js/2.f6b597bd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2b1b6afa.js",
+    "static/js/runtime-main.16a3d58e.js",
     "static/js/2.f6b597bd.chunk.js",
     "static/css/main.963d7828.chunk.css",
     "static/js/main.3949fe20.chunk.js"
