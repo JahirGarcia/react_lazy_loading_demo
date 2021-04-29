@@ -1,6 +1,6 @@
-// import loadable from '@loadable/component';
+import { lazy } from '@loadable/component';
 // import Loading from '../components/Loading';
-import { lazy } from 'react';
+// import { lazy } from 'react';
 
 // standalone
 // import { Home, About, Blog, Docs } from '../views';
@@ -20,6 +20,17 @@ import { lazy } from 'react';
 // const Docs = loadable(() => import('../views/Docs'));
 
 // react lazy
+// const Home = lazy(() => {
+//   return new Promise((res) => {
+//     setTimeout(() => {
+//       res(import('../views/Home'));
+//     }, 3000);
+//   });
+// });
+// const About = lazy(() => import('../views/About'));
+// const Blog = lazy(() => import('../views/Blog'));
+// const Docs = lazy(() => import('../views/Docs'));
+
 const Home = lazy(() => {
   return new Promise((res) => {
     setTimeout(() => {
