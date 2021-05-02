@@ -20,3 +20,28 @@ code {
 .navlink-active {
   color: #1251fd;
 }
+
+/* Tamaños de fuente */
+.font-size-sm {
+  font-size: small;
+}
+
+.font-size-md {
+  font-size: medium;
+}
+
+.font-size-lg {
+  font-size: large;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
+}
