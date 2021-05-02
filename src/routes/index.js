@@ -41,6 +41,7 @@ const Home = lazy(() => {
 const About = lazy(() => import('../views/About'));
 const Blog = lazy(() => import('../views/Blog'));
 const Docs = lazy(() => import('../views/Docs'));
+const Settings = lazy(() => import('../views/Settings'));
 
 const routes = [
   {
@@ -63,6 +64,11 @@ const routes = [
     path: '/docs',
     name: 'Docs',
     component: Docs
+  },
+  {
+    path: '/settings',
+    name: 'Settings',
+    component: Settings
   },
 ];
 
