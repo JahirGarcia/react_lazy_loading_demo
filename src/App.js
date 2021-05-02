@@ -2,16 +2,14 @@ import React, { Fragment, Suspense } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Navbar, Loading } from './components';
 import FontSizeRoot from './components/FontSizeRoot';
-import FontSizeContext, { useFontSizeContext } from './contexts/fontsize';
+import { FontSizeContextProvider } from './contexts/fontsize';
 import routes from './routes';
 
 function App() {
-  // Estado del tamaño de fuente
-  const value = useFontSizeContext();
 
   return (
     <Fragment>
-      <FontSizeContext.Provider value={ value } >
+      <FontSizeContextProvider>
         <FontSizeRoot>
           <BrowserRouter>
             <Navbar />
@@ -28,7 +26,7 @@ function App() {
             </Switch>
           </BrowserRouter>
         </FontSizeRoot>
-      </FontSizeContext.Provider>
+      </FontSizeContextProvider>
     </Fragment>
   );
 }
