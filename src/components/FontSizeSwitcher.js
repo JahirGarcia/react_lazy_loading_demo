@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { fontSize as fontSizesConstants } from '../consts';
 import FontSizeContext from '../contexts/fontsize';
 
-function FontSizeSwitcher(props) {
+function FontSizeSwitcher({ onChange, ...rest }) {
   // Tamaños de fuentes
   const [sizes] = useState(
     Object.entries(fontSizesConstants).map(pair => {
@@ -17,12 +17,16 @@ function FontSizeSwitcher(props) {
   const { fontSize, setFontSize } = useContext(FontSizeContext);
 
   const handleChange = (e) => {
-    setFontSize(Number.parseInt(e.target.value));
+    // Se actualiza el contexto
+    setFontSize(e.target.value);
+
+    // Se llama a onChange si se sobreescribió en props
+    if(onChange) onChange(e);
   }
 
   return (
     <select name="font_size_switcher" defaultValue={ fontSize } 
-      onChange={ handleChange } { ...props } >
+      onChange={ handleChange } { ...rest } >
       {
         sizes.map(size => (
           <option key={ size.key } 
